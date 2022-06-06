@@ -1,0 +1,140 @@
+@import "config";
+@import "mixins";
+@import "reset";
+@import "layout";
+
+body, html {
+    height: 100%;
+    background-color: #ccc;
+}
+
+body {
+    font-size: $ft-size-main;
+    font-weight: $ft-weight-main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstname {
+    @include name;
+    margin-left: -0.1cm;
+}
+
+.surname {
+    @include name;
+    margin-left: -0.08cm;
+    font-weight: 700;
+}
+
+.position {
+    font-size: $position-ft-size;
+    font-weight: $position-ft-weight;
+    color: $fg-highlight;
+}
+
+.section {
+    .section-header {
+        display: flex;
+        align-items: center;
+        gap: $sn-head-spacing;
+        margin-left: $sn-head-ft-size * -0.5;
+        margin-top: -0.2cm;
+        margin-bottom: $sn-head-margin-bottom;
+    
+        .bullet {
+            height: $sn-head-ft-size;
+            width: $sn-head-ft-size;
+            border-radius: 50%;
+            background-color: $sn-head-bullet-color;
+        }
+    
+        .title {
+            font-size: $sn-head-ft-size;
+            font-weight: $sn-head-ft-weight;
+            color: $sn-head-fg-color;
+        }
+    }
+
+    .section-details {
+        margin: 0 $sn-leftpad;
+    }
+}
+
+.about {
+    .section-details {
+        text-align: justify;
+    }
+}
+
+.contact {
+    .contact-icon {
+        width: 0.55cm;
+    }
+
+    li {
+        
+        display: flex;
+        align-items: center;
+        gap: 0.2cm;
+
+        &:not(:last-child) {
+            margin-bottom: $ct-list-item-spacing;
+        }
+    }
+}
+
+.compentencies {
+
+    .competency {
+        margin-bottom: $skills-item-spacing;
+
+        .heading {
+            font-size: $skills-head-ft-size;
+            font-weight: $skills-head-ft-weight;
+            margin-bottom: $skills-head-btmpad;
+        }
+    }
+}
+
+.experience {
+    padding-top: 0.2cm;
+
+    .job {
+        margin-bottom: $work-item-spacing;
+
+        .heading {
+            display: flex;
+            justify-content: space-between;
+            font-size: $work-head-ft-size;
+            font-weight: $work-head-ft-weight;
+            margin-bottom: $work-head-btmpad;
+        }
+
+        .details {
+            text-align: justify;
+        }
+    }
+}
+
+.education {
+    
+    .qualification {
+        margin-bottom: $work-item-spacing;
+
+        .school {
+            display: flex;
+            justify-content: space-between;
+            font-size: $work-head-ft-size;
+            font-weight: $work-head-ft-weight;
+            margin-bottom: $work-head-btmpad;
+        }
+
+        .details {
+            text-align: justify;
+        }
+    }
+}
+
+
+

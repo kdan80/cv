@@ -1,0 +1,14 @@
+@mixin v-line {
+    border-left: $vline-width solid $vline-color;
+}
+
+@mixin a4-page {
+    width: 21.0cm;
+    height: 29.7cm;
+}
+
+@mixin name {
+    color: $name-fg-color;
+    line-height: $name-line-height;
+    font-size: $name-ft-size;
+}

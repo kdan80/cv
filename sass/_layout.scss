@@ -1,0 +1,42 @@
+
+// The outermost container that represents the actual page of a printed CV.
+.page {
+    @include a4-page;
+    display: flex;
+    background: $bg-img;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    box-shadow: 0 0 16px rgba(0,0,0,.25);
+}
+
+// The CV is split into 2 vertical sections/columns with a 40/60 split ratio.
+// The left section contains personal details & contact info.
+// The right section contains education & experience etc.
+.left-page {
+    position: relative;
+    padding: $lt-page-margin;
+    flex: .47;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.right-page {
+    @include v-line;
+    padding: $rt-page-margin;
+    flex: .53;
+}
+
+// Left page subsections
+
+.personal {
+    @include v-line;
+    height: 100%;
+    margin-top: 1cm;
+    margin-bottom: $page-margin * -1;
+}
+
+.section {
+    margin-bottom: $sn-spacing;
+}

@@ -1,0 +1,19 @@
+@page {
+    margin: 0;
+    background: $bg-img;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    font-family: $ft-sans;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #404040;
+}
+
+ul, ol {
+    list-style: none;
+}
+
