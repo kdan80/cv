@@ -1,64 +1,65 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+/** @format */
 
-$ft-sans                : "Poppins";
-$ft-size-main           : 11pt;
-$ft-weight-main         : 400;
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+$ft-sans: "Poppins";
+$ft-size-main: 11pt;
+$ft-weight-main: 400;
 
 // Background image
-$bg-img                 : url("../images/cv_background.svg");
+$bg-img: url("../images/cv_background.svg");
 
 // Color Palette
-$dark-gray              : #505050;
-$gray                   : #606060;
-$jade                   : rgb(23,152,118);
+$dark-gray: #444444;
+$gray: #555555;
+$jade: rgb(23, 152, 118);
 
 // Theme
-$fg-main                : $dark-gray;
-$fg-main-light          : $gray;
-$fg-highlight           : $jade;
+$fg-main: $dark-gray;
+$fg-main-light: $gray;
+$fg-highlight: $jade;
 
-
-// Page Margins 
+// Page Margins
 // These value have been labelled as margins, however, they will be implemented as padding values
 // MS Word, LO Writer etc refer to a page margin, in CSS this would be padding
-$page-margin            : 1.4cm;
-$lt-page-margin         : $page-margin 0 $page-margin $page-margin;
-$rt-page-margin         : $page-margin $page-margin $page-margin 0;
+$page-margin: 1.4cm;
+$lt-page-margin: $page-margin 0 $page-margin $page-margin;
+$rt-page-margin: $page-margin $page-margin $page-margin 0;
 
 // Vertical Lines/Separators
-$vline-margin           : 0.75cm;
-$vline-width            : 2px;
-$vline-color            : $fg-main-light;
+$vline-margin: 0.75cm;
+$vline-width: 2px;
+$vline-color: $fg-main-light;
 
 // Intro Section (name, position etc)
-$name-ft-size           : 40pt;
-$name-line-height       : 0.95;
-$name-fg-color          : $fg-main;
-$position-ft-size       : 16pt;
-$position-ft-weight     : 600;
+$name-ft-size: 40pt;
+$name-line-height: 0.95;
+$name-fg-color: $fg-main;
+$position-ft-size: 16pt;
+$position-ft-weight: 600;
 
 // Section
-$sn-head-ft-size        : 14pt;
-$sn-head-ft-weight      : 700;
-$sn-head-fg-color       : $fg-highlight;
-$sn-head-bullet-color   : $fg-main-light;
-$sn-head-spacing        : 0.4cm;
-$sn-head-margin-bottom  : $sn-head-spacing;
-$sn-spacing             : 1.2cm;
-$sn-leftpad             : $sn-head-spacing + ($sn-head-ft-size * 0.5);
+$sn-head-ft-size: 14pt;
+$sn-head-ft-weight: 700;
+$sn-head-fg-color: $fg-highlight;
+$sn-head-bullet-color: $fg-main-light;
+$sn-head-spacing: 0.4cm;
+$sn-head-margin-bottom: $sn-head-spacing;
+$sn-spacing: 1.2cm;
+$sn-leftpad: $sn-head-spacing + ($sn-head-ft-size * 0.5);
 
 // Contact List
-$ct-list-item-spacing   : 0.25cm;
+$ct-list-item-spacing: 0.25cm;
 
 // Key Compentencies List
-$skills-item-spacing    : 0.2cm;
-$skills-head-ft-size    : 12pt;
-$skills-head-ft-weight  : 600;
-$skills-head-btmpad     : 0.1cm;
+$skills-item-spacing: 0.2cm;
+$skills-head-ft-size: 12pt;
+$skills-head-ft-weight: 600;
+$skills-head-btmpad: 0.1cm;
 
 // Work Experience
-$work-head-ft-size      : $skills-head-ft-size;
-$work-head-ft-weight    : $skills-head-ft-weight;
-$work-item-spacing      : 0.6cm;
-$work-head-btmpad       : $skills-head-btmpad;
+$work-head-ft-size: $skills-head-ft-size;
+$work-head-ft-weight: $skills-head-ft-weight;
+$work-item-spacing: 0.6cm;
+$work-head-btmpad: $skills-head-btmpad;
