@@ -81,7 +81,7 @@ body {
   line-height: 0.95;
   font-size: 40pt;
   margin-left: -0.08cm;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .position {
@@ -99,11 +99,11 @@ body {
   margin-bottom: 0.4cm;
 }
 .section .section-header .bullet {
-  height: 14pt;
-  width: 14pt;
+  height: 10.5pt;
+  width: 10.5pt;
   border-radius: 50%;
   background-color: #555555;
-  margin-left: -1px;
+  margin-left: 1.5px;
 }
 .section .section-header .title {
   font-size: 14pt;
@@ -130,10 +130,10 @@ body {
   margin-bottom: 0.25cm;
 }
 
-.compentencies .competency {
+.competencies .competency {
   margin-bottom: 0.2cm;
 }
-.compentencies .competency .heading {
+.competencies .competency .heading {
   font-size: 12pt;
   font-weight: 600;
   margin-bottom: 0.1cm;

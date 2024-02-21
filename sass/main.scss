@@ -27,7 +27,7 @@ body {
 .surname {
 	@include name;
 	margin-left: -0.08cm;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .position {
@@ -46,11 +46,11 @@ body {
 		margin-bottom: $sn-head-margin-bottom;
 
 		.bullet {
-			height: $sn-head-ft-size;
-			width: $sn-head-ft-size;
+			height: $sn-head-ft-size * .75;
+			width: $sn-head-ft-size * .75;
 			border-radius: 50%;
 			background-color: $sn-head-bullet-color;
-			margin-left: -1px;
+			margin-left: 1.5px;
 		}
 
 		.title {
@@ -87,7 +87,7 @@ body {
 	}
 }
 
-.compentencies {
+.competencies {
 	.competency {
 		margin-bottom: $skills-item-spacing;
 
