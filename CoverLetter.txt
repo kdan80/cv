@@ -1,0 +1,14 @@
+Dear XXXX
+
+I am a self-taught web developer, and occasional designer, with a passion for building exceptional digital experiences. Having worked in hospitality I am now pivoting to work in, and fully commit to, a field I consider my true calling.
+
+I have a comprehensive porfolio of projects that I have built with a slight emphasis on front end technologies but also incorporating full stack projects. I am very comfortable with HTML, CSS (with tailwind, Sass or vanilla) and Javascript. I have also taken some time to learn Typescript in conjuction with React.js for development of robust, full-featured, front end applications and websites. I have created my own APIs and backends to feed my front end projects with data. I have used javascript (node), php (laravel) and python (django) in creating my backend projects. 
+
+I am particularly passionate about creating simple, yet elegant, digital products that conform to modern expectations and offer a seemless user experience. For this I employ responsive design (css flex & grid etc), thoughtful font & typesetting, limited but meaningful use of colour and reserving animations and effects to emphasize feedback to the user. 
+
+I have leadership and management experience and have exceptional communication skills (another passion), be it written, verbal or phone communication. The foundation of hospitality is teamwork, being a part of a team but also guiding and leading a team. This is where I will be of greastest value, my ability to integrate and be a part of the team will be seamless. Working daily with colleagues and customers has also given me tremendous empathy, which I think is essential when helping others to find solutions to their problems. For these reasons I consider myself to be a junior developer but a senior with respect to teamwork.
+
+In closing I would like to say that my career aspiration is to be a Senior Developer and Project Leader, taking responsibilty for creative decisions, planning & strategy and most importantly training junior staff. I have no doubt that you will receive applications from candidates with more experience in web development, but you will not find a candidate who is more passionate and determined. Thank you for taking the time to consider my application.
+
+Yours truly
+Kieran Dansey
